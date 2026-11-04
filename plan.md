@@ -2,6 +2,7 @@ NO AI HELP!!!!!!!!!!!!!!!!
 
 DAY 1
 Set up Rust compilation to WASM and a TypeScript frontend with a button to add objects.
+https://rustwasm.github.io/docs/book/game-of-life/setup.html
 
 DAY 2
 Set up a graphics engine using a canvas object.
