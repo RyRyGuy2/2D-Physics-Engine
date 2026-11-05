@@ -1,0 +1,16 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run build:wasm && vite",
+    "build": "wasm-pack build ../physics --target web && tsc && vite build",
+    "preview": "vite preview",
+    "build:wasm": "wasm-pack build ../physics --target web --dev"
+  },
+  "devDependencies": {
+    "typescript": "~7.0.2",
+    "vite": "^8.3.5"
+  }
+}
