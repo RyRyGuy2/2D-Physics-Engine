@@ -6,6 +6,7 @@ https://rustwasm.github.io/docs/book/game-of-life/setup.html
 
 DAY 2
 Set up a graphics engine using a canvas object.
+And have actively drawn objects.
 
 DAY 3
 Create a Vec2 class with methods like .magnitude, .normalized, and math operations between vectors.
