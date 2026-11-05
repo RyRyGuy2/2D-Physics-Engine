@@ -1,7 +1,13 @@
-use wasm_bindgen::prelude::*;
+use std::fmt::format;
 
+use wasm_bindgen::prelude::*;
 // Setup check only; the physics implementation is part of your challenge.
 #[wasm_bindgen]
 pub fn setup_message() -> String {
-    String::from("Rust + WebAssembly connected.")
+    String::from("Rust + WebAssembly connected." )
+}
+
+#[wasm_bindgen]
+pub fn greet(name: &str) -> String {
+    format!("Hello {}!", name)
 }
