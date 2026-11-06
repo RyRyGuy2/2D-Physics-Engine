@@ -36,6 +36,7 @@ class Circle {
     }
 }
 
+
 function test() {
     if (ctx == null || ctx == undefined) {
         return
